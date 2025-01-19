@@ -21,17 +21,17 @@
 ![image](https://github.com/user-attachments/assets/26c433b5-2338-4aa4-8bb6-460408e898f0)  
   
 # 3.画面  
-- (1) Webブラウザの表示
-   
-![image](https://github.com/user-attachments/assets/95ff1878-8826-48de-bba2-9a004b787b4b)    
+- (1)Webブラウザの表示
+
+     ![image](https://github.com/user-attachments/assets/71e27e84-6caf-4cd0-81f6-465259255e8c)
   
-- (2) TCPソケット通信
+- (2)TCPソケット通信
   
-![image](https://github.com/user-attachments/assets/987982c6-0ec6-4d05-b251-c7bad791d704)  
+     ![image](https://github.com/user-attachments/assets/1559c24e-8774-4bae-8a01-713edf9ea340)
+
+- (3)メールメッセージ
   
-- (3) メールメッセージ
-  
-![image](https://github.com/user-attachments/assets/aea04a1b-ad59-40a5-b4d6-c8a71dbab6e4)  
+     ![image](https://github.com/user-attachments/assets/aea04a1b-ad59-40a5-b4d6-c8a71dbab6e4)  
 
 
 

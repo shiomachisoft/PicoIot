@@ -1,4 +1,4 @@
-# 1.概要
+# 1.PicoIotの概要
 - (1)マイコン基板はRaspberry Pico Pico Wを使用します。  
 - (2)Pico Wがセンサデータについて、下記の種類の送信を行います。  
     - Webブラウザに送信  
@@ -32,7 +32,9 @@
 - (3)メールメッセージ
   
      ![image](https://github.com/user-attachments/assets/aea04a1b-ad59-40a5-b4d6-c8a71dbab6e4)  
-
+  
+# 4.使い方  
+マニュアル参照
 
 
 

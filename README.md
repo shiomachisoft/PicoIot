@@ -25,7 +25,7 @@
 
      ![image](https://github.com/user-attachments/assets/71e27e84-6caf-4cd0-81f6-465259255e8c)
   
-- (2)TCPソケット通信
+- (2)TCPソケット送信
   
      ![image](https://github.com/user-attachments/assets/1559c24e-8774-4bae-8a01-713edf9ea340)
 

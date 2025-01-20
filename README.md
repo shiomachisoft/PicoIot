@@ -34,7 +34,7 @@
      ![image](https://github.com/user-attachments/assets/aea04a1b-ad59-40a5-b4d6-c8a71dbab6e4)  
   
 ## 4. 使い方  
-マニュアル参照
+マニュアルを参照。
 
 
 

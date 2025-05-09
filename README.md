@@ -1,6 +1,6 @@
 # PicoIot
 ## 1. 概要
-- (1)マイコン基板はRaspberry Pico Pico Wを使用します。  
+- (1)マイコン基板はRaspberry Pi Pico Wを使用します。  
 - (2)Pico Wがセンサデータ(※1)について、下記の種類の送信を行います。  
     - Webブラウザに送信  
     - TCPソケット通信で送信  

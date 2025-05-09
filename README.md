@@ -25,7 +25,8 @@
 - (3) Pico Wに対するモード設定・Wi-Fi設定は、専用PCアプリを使用してPico WのFlashメモリに保存します。 
 
 ## 2. システム構成  
-  ![システム構成 - コピー](https://github.com/user-attachments/assets/52b8d7f1-4fa5-49df-b479-bfb482fc7beb)
+![システム構成2](https://github.com/user-attachments/assets/bd1f3872-290d-43fc-abdd-6f6824f8ec77)
+
 
 ## 3. 画面  
 - (1) BLEでスマホへセンサデータを送信

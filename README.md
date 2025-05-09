@@ -28,7 +28,7 @@
   ![システム構成 - コピー](https://github.com/user-attachments/assets/52b8d7f1-4fa5-49df-b479-bfb482fc7beb)
 
 ## 3. 画面  
-- (1) スマホへBELでセンサデータを送信
+- (1) BLEでスマホへセンサデータを送信
 
      ![iphone](https://github.com/user-attachments/assets/2ae37a95-5677-477c-b7a7-ba2a14705271)
 

@@ -1,35 +1,47 @@
 # PicoIot
 ## 1. 概要
-- (1)マイコン基板はRaspberry Pi Pico Wを使用します。  
-- (2)Pico Wがセンサデータ(※1)について、下記の種類の送信を行います。  
-    - Webブラウザに送信  
-    - TCPソケット通信で送信  
-      ※Pico Wはサーバー/クライアントのどちらにもなることができます。  
-    - メール送信  
-      ※Gmailアカウントを使用します。Gmailが送信元になります。  
-  
-    - ※1:センサデータ
-      - Pico WのGPIO入力値  
-      - Pico WのADC値(電圧値, 温度センサ値)  
-      - BoschのBME280(温度・湿度・気圧センサ)のデータ  
-        Pico WにBME280を接続していなくてもPicoIotは使用できます。  
-        BME280が接続されていない場合、本データは0になります。
-   
-- (3)Pico Wに対するWi-Fi設定等は専用PCアプリを使用し、Pico WのFlashメモリに保存します。
+- (1) マイコン基板はRaspberry Pi Pico Wを使用します。  
+- (2) Pico Wが、下記の①～④の送信方法で、センサデータの送信を行います。  
+      
+    **<Pico Wのセンサデータの送信方法>**    
+    **■BLEモード**  
+    ①BLEで送信  
+     Pico Wは、BLEのペリフェラルになります。  
+
+    **■Wi-Fiモード**  
+    ②Webブラウザに送信  
+    ③TCPソケット通信で送信   
+     Pico WはTCPサーバー/TCPクライアントのどちらにもなることができます。
+    ④メール送信  
+     Gmailアカウントを使用します。Gmailが送信元になります。  
+
+    **<センサデータの種類>**  
+    ・Pico WのGPIO入力値  
+    ・Pico WのADC値(電圧値, 温度センサ値)  
+    ・BoschのBME280(温度・湿度・気圧センサ)のデータ(※1)   
+        
+    ※1: Pico WにBME280が接続されていない場合、本データは0になります。  
+ 
+- (3) Pico Wに対するモード設定・Wi-Fi設定は、専用PCアプリを使用してPico WのFlashメモリに保存します。 
 
 ## 2. システム構成  
 ![image](https://github.com/user-attachments/assets/26c433b5-2338-4aa4-8bb6-460408e898f0)  
   
 ## 3. 画面  
-- (1)Webブラウザの表示
+- (1) スマホへセンサデータを送信
+
+     ![iphone](https://github.com/user-attachments/assets/2ae37a95-5677-477c-b7a7-ba2a14705271)
+
+
+- (2) Webブラウザへセンサデータを送信
 
      ![image](https://github.com/user-attachments/assets/71e27e84-6caf-4cd0-81f6-465259255e8c)
   
-- (2)TCPソケット送信
+- (3) TCPソケット通信でセンサデータを送信
   
      ![image](https://github.com/user-attachments/assets/1559c24e-8774-4bae-8a01-713edf9ea340)
 
-- (3)メールメッセージ
+- (4) メールでセンサデータを送信
   
      ![image](https://github.com/user-attachments/assets/aea04a1b-ad59-40a5-b4d6-c8a71dbab6e4)  
   

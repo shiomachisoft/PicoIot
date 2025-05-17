@@ -31,12 +31,12 @@
 ## 3. 画面  
 - (1) BLEでスマホへセンサデータを送信
 
-     ![iphone](https://github.com/user-attachments/assets/2ae37a95-5677-477c-b7a7-ba2a14705271)
+     ![aaa](https://github.com/user-attachments/assets/25d75e21-08b5-4cd6-b222-466bac17a6db)
 
 
-- (2) Webブラウザへセンサデータを送信
-
-     ![image](https://github.com/user-attachments/assets/71e27e84-6caf-4cd0-81f6-465259255e8c)
+- (2) Webブラウザへセンサデータを送信  
+  
+     ![web](https://github.com/user-attachments/assets/058d2783-8015-45db-8436-0c00014cbed0)
   
 - (3) TCPソケット通信でセンサデータを送信
   

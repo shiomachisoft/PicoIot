@@ -35,16 +35,17 @@
 
 
 - (2) Webブラウザへセンサデータを送信  
-  
-     ![web](https://github.com/user-attachments/assets/058d2783-8015-45db-8436-0c00014cbed0)
-  
+
+   ![web](https://github.com/user-attachments/assets/046da13b-368c-4036-90a8-b6b381b8a323)
+
 - (3) TCPソケット通信でセンサデータを送信
-  
-     ![image](https://github.com/user-attachments/assets/1559c24e-8774-4bae-8a01-713edf9ea340)
+
+     ![socket](https://github.com/user-attachments/assets/d13d79bd-8fd3-456b-8eb3-2490991ca82e)
 
 - (4) メールでセンサデータを送信
   
-     ![image](https://github.com/user-attachments/assets/aea04a1b-ad59-40a5-b4d6-c8a71dbab6e4)  
+     ![mail](https://github.com/user-attachments/assets/3a8557ac-bc60-4f82-b68f-f73179f5a98c)
+
   
 ## 4. 使い方  
 マニュアルを参照。

@@ -51,7 +51,7 @@
 マニュアルを参照。
 
 ## 5. ソースコード 
-PicoIotのFWとPCアプリのソースコードは、[note](https://note.com/gay_egret8211/n/nec19baa6b3ed)からダウンロードできます。(有料)  
+FWとPCアプリのソースコードは、[note](https://note.com/gay_egret8211/n/nec19baa6b3ed)からダウンロードできます。(有料)  
 FWは、Arduino IDEで作成しています。 
 
 ## 6. 不具合報告や要望

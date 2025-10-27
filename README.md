@@ -52,7 +52,7 @@
 
 ## 5. ソースコード 
 FWとPCアプリのソースコードは、[note](https://note.com/gay_egret8211/n/nec19baa6b3ed)からダウンロードできます。(有料)  
-- FWは、Arduino IDEで作成しています。
+- FWはArduino IDEで作成しています。
 - PCアプリはVisual StudioでC#で作成しています。
 
 ## 6. 不具合報告や要望

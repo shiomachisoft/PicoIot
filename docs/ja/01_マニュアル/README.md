@@ -328,15 +328,11 @@ Pico Wは、Eメール設定で指定した送信間隔でセンサデータを�
   - 簡易熱中症指数（WBGT）[℃]
 
 ### TCPソケット通信でJSONデータ送信
-Pico WがTCPサーバーとなり、**JSON**形式のデータを外部クライアント（Tera Termなど）に送信します。
+Pico WがTCPサーバーとなり、**JSON**形式のデータを外部クライアント（Tera Termなど）に5秒間隔で送信します。
 #### ポート番号
 
 TCPソケット通信で使用するポート番号は **7777** です。  
 ※ポート7777はPico Wからのデータ送信専用として使用して下さい。
-
-#### 送信間隔
-
-Pico Wは約5秒間隔でセンサデータをTCPソケット送信します。
 
 #### データフォーマット
 
@@ -375,6 +371,7 @@ TCPクライアントとしてTera Termを使用する場合、Tera Termの設�
 ## BLEモード
 
 ### BLEでJSONデータ送信
+BLE通信でスマホなどにJSON形式のセンサデータを5秒間隔で送信します。  
 
 #### BLEのUUID
 
@@ -390,11 +387,6 @@ BLEのサービスUUIDとCharacteristic UUIDは、Nordic UART Service (NUS) を�
 3. **Characteristic UUID（Notify: Pico W→スマホ）**  
    `6E400003-B5A3-F393-E0A9-E50E24DCCA9E`  
    ※本Characteristicは、Pico Wのセンサデータをスマホに送信するのに使用します。
-
-
-#### 送信間隔
-
-Pico Wは約5秒間隔でセンサデータをBLEで送信します。
 
 #### データフォーマット
 

@@ -14,7 +14,7 @@ PicoIotは、Raspberry Pi Pico Wを使用した簡易IoTシステムです。各
 * **TCPソケット通信:** Pico WがTCPサーバーとなり、JSON形式のデータを外部クライアント（Tera Termなど）に送信します。
 
 **BLEモード**
-* **スマホとBLE通信:** BLE通信でスマホなどにJSON形式のセンサデータを送信します。BLEのサービスUUIDとCharacteristic UUIDは、Nordic UART Service (NUS) を使用します。
+* **スマホとBLE通信:** BLE通信でスマホなどにJSON形式のセンサデータを送信します。
 
 ## 取得・送信可能なセンサデータ
 

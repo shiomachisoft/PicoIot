@@ -47,3 +47,11 @@ PicoIotは、Raspberry Pi Pico Wを使用した簡易IoTシステムです。各
 * `Gpio.cpp` / `Gpio.h`
 * `Sensor2Json.cpp` / `Sensor2Json.h`
 * `Alert.cpp`
+
+## センサデータのカスタマイズについて 
+Webブラウザでの表示内容やEメールの本文などは、内部で生成されるセンサのJSONデータから動的に作成されています。そのため、ユーザーがFWのソースコード（センサデータを取得してJSONを作成する部分）を変更するだけで、容易に表示・送信するデータをカスタマイズできます。  
+カスタマイズを行う場合は、`src` フォルダ内の以下のソースファイルを編集して下さい。なお、FWのソースコードはArduino IDEを使用し、C++で記述されています。
+- `Gpio.h`
+- `Gpio.cpp`
+- `Sensor2Json.h`
+- `Sensor2Json.cpp`

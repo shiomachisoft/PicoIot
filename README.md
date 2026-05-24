@@ -33,6 +33,8 @@ PicoIotは、Raspberry Pi Pico Wを使用した簡易IoTシステムです。各
 ### 2. PCアプリ（PicoJigApp）による基本設定
 * Windows PC上で `PicoJigApp.exe` を起動します（※動作には `.NET Framework 4.6.2` 以降が必要です）。
 * Pico WをUSB接続してCOMポートを開き、通信モード（Wi-Fi/BLE）やネットワーク設定（IPアドレス、サブネットマスク、ゲートウェイ、SSID、パスワード）をFlashメモリに保存します。
+<img width="502" height="492" alt="image" src="https://github.com/user-attachments/assets/f8503148-b4b5-4433-ae3e-1db0055bec35" />
+
 
 ### 3. オプション設定（Wi-Fiモード時）
 * WebブラウザからPico WのIPアドレス（例: `http://192.168.10.100`）にアクセスします。

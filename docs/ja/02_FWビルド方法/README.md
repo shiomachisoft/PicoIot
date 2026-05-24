@@ -4,7 +4,7 @@
 
   - arduino-ide_2.3.8_Windows_64bit.exe
 
-- src_fwフォルダ内のPicoBrgフォルダをPCの適当な場所にコピーします。
+- src_fwフォルダ内のPicoIotフォルダをPCの適当な場所にコピーします。
 
 - PicoIotフォルダ内のPicoIot.inoをArduino IDEで開きます。
 

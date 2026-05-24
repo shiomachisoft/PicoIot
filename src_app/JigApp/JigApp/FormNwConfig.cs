@@ -123,6 +123,7 @@ namespace JigApp
                     if ((_eNwConfig == E_NW_CONFIG.NW_CONFIG2) || (_eNwConfig == E_NW_CONFIG.NW_CONFIG3))
                     {
                         radioButton_Wifi.Checked = isWifi;
+                        radioButton_BLE.Checked = !isWifi;
                     }
                     if (_eNwConfig == E_NW_CONFIG.NW_CONFIG2)
                     {

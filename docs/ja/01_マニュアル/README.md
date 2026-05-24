@@ -386,7 +386,7 @@ BLEのサービスUUIDとCharacteristic UUIDは、Nordic UART Service (NUS) を�
 
 2. **Characteristic UUID（Write: スマホ→Pico W）**  
    `6E400002-B5A3-F393-E0A9-E50E24DCCA9E`  
-   ※本Characteristicはセンサデータの受信等の通常用途では未使用ですが、システム内部のコマンド受信用に割り当てられています。誤作動を防ぐため、ユーザーアプリから任意のデータを送信しないで下さい。
+   ※本Characteristicはセンサデータの受信等の通常用途では未使用ですが、システム内部のコマンド受信用に割り当てられています。誤作動を防ぐため、スマホアプリから任意のデータを送信しないで下さい。
 
 3. **Characteristic UUID（Notify: Pico W→スマホ）**  
    `6E400003-B5A3-F393-E0A9-E50E24DCCA9E`  

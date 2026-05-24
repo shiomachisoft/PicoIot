@@ -1,6 +1,6 @@
 # PicoIot
 
-PicoIotは、Raspberry Pi Pico Wを使用した簡易IoTシステムです。各種センサ（GPIO入力、ADC電圧、BME280環境センサなど）から取得したデータを、Wi-FiやBLEを利用してPCやスマートフォンへ手軽に送信・表示することができます。
+PicoIotは、Raspberry Pi Pico Wを使用した簡易IoTシステムです。各種センサ（GPIO入力、ADC電圧、BME280環境センサなど）から取得したデータを、Wi-FiやBLEを利用してPCやスマートフォンへ送信・表示することができます。
 
 ## 主な特徴
 
